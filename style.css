@@ -29,6 +29,7 @@ body {
 }
 
 .main h1 {
+    padding-top: 20rem;
     font-size: 4rem;
     margin-bottom: 2rem;
     line-height: 1.2;
@@ -39,6 +40,7 @@ body {
 }
 
 .main p {
+    padding-bottom: 20rem;
     font-size: 1.3rem;
 }
 
