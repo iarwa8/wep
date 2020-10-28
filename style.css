@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hepta Slab', serif;
+    font-size: 1rem;
+    background: #f9f9f9;
+}
+
+.containor {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.main {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.5rem;
+}
+
+.main h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.main h1 span {
+    color: #b50d10;
+}
+
+.main p {
+    font-size: 1.3rem;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 3rem;
+}
+
+.card>div {
+    padding: 2rem;
+}
+
+.card:nth-child(even) img {
+    order: 2;
+}
