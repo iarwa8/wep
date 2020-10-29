@@ -14,7 +14,7 @@ if(!($result = mysqli_query($database,$query)))
 // closing the mysqli
 mysqli_close($database);
 ?>
-<table>
+<table> 
 <caption>Results of "Select * From students"</caption>
 <?php 
 // printing information from database in loop to print all the results from the query 
@@ -24,4 +24,4 @@ while($row = mysqli_fetch_row($result)){
     print("<td>$value </td>");
     print("</tr>");
 }
-?>
+?> 

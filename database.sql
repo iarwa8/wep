@@ -12,7 +12,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `students`
 --
-
+ 
 CREATE TABLE `students` (
   `id` int(10) NOT NULL,
   `sName` varchar(50) NOT NULL,
